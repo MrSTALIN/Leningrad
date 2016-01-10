@@ -52,22 +52,28 @@ int main()
 
 	for (int i = 0; i < sizeOfVector; i++)
 		third_vector[i] = first_vector[i] + second_vector[i];		
-	for (int i = 0; i<third_vector.size(); i++)
-		cout << "T3 [" << i << "] = " << third_vector[i] << endl;
+	cout << "V3 = [";
+	for (int i = 0; i < third_vector.size(); i++)
+		cout << third_vector[i] << " ; ";
+	cout << "\b\b\b]" << endl;
 		
 	cout << "\t\nSubtraction" << endl << endl;
 
 	for (int i = 0; i < sizeOfVector; i++)
 		third_vector[i] = first_vector[i] - second_vector[i];
-	for (int i = 0; i<third_vector.size(); i++)
-		cout << "T3 [" << i << "] = " << third_vector[i] << endl;
+	cout << "V3 = [";
+	for (int i = 0; i < third_vector.size(); i++)
+		cout << third_vector[i] << " ; ";
+	cout << "\b\b\b]" << endl;
 	
 	cout << "\t\nMultiplication" << endl << endl;
 
 	for (int i = 0; i < sizeOfVector; i++)
 		third_vector[i] = first_vector[i] * second_vector[i];
-	for (int i = 0; i<third_vector.size(); i++)
-		cout << "T3 [" << i << "] = " << third_vector[i] << endl;
+	cout << "V3 = [";
+	for (int i = 0; i < third_vector.size(); i++)
+		cout << third_vector[i] << " ; ";
+	cout << "\b\b\b]" << endl;
 	
 	if (sizeOfVector==2)
 	{
